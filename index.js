@@ -17,11 +17,11 @@ class Circle {
     return this.radius * this.radius * pi;
   }
 
-  set diameter(radius) {
-
+  set diameter(diameter) {
+    this.radius = diameter / 2; 
   }
 
-  set circumference(radius) {
+  set circumference(circumference) {
 
   }
 
