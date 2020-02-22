@@ -17,15 +17,15 @@ class Circle {
     return this.radius * this.radius * pi;
   }
 
-  set diameter() {
+  set diameter(radius) {
 
   }
 
-  set circumference() {
+  set circumference(radius) {
 
   }
 
-  set area() {
-    
+  set area(radius) {
+
   }
 }
