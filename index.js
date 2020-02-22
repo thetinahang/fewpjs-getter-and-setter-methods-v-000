@@ -3,5 +3,5 @@ class Circle {
   constructor(radius) {
     this.radius = radius;
   }
-  const pi = Math.PI
+  const pi = Math.PI;
 }
