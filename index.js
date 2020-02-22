@@ -16,4 +16,16 @@ class Circle {
   get area() {
     return this.radius * this.radius * pi;
   }
+
+  set diameter() {
+
+  }
+
+  set circumference() {
+
+  }
+
+  set area() {
+    
+  }
 }
