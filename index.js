@@ -9,11 +9,11 @@ class Circle {
   }
 
   get circumference() {
-    return this.radius * 2 * pi;
+    return this.radius * 2 * Math.PI;
   }
 
   get area() {
-    return this.radius * this.radius * pi;
+    return this.radius * this.radius * Math.PI;
   }
 
   set diameter(diameter) {
@@ -21,10 +21,10 @@ class Circle {
   }
 
   set circumference(circumference) {
-    this.radius = circumference / (2 * pi);
+    this.radius = circumference / (2 * Math.PI);
   }
 
   set area(area) {
-    this.radiu = Math.sqrt(area/pi);
+    this.radiu = Math.sqrt(area/Math.PI);
   }
 }
